@@ -28,11 +28,11 @@ class CfgAmmo
 	class DBA_ammo_base;
 	class GAR_IonizedBolt_DC : DBA_ammo_base
 	{
-		hit = 25;
+		hit = 15;
 		indirecthit = 0;
 		indirecthitrange = 0;
 		typicalspeed = 500;
-		caliber = 12;
+		caliber = 6;
 		effectfly = "SWLW_plasma_blue";
 		tracerScale = 0.5;
 		audibleFire = 80;
