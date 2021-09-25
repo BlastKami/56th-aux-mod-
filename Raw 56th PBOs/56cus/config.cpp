@@ -215,7 +215,7 @@ class CfgWeapons
 			"56cus\data\GAR_56cus_IMPULSE_helmet.paa"
 		};
 	};
-	/*class GAR_56cus_KINDRED_helmet: JLTS_CloneHelmetP2
+	class GAR_56cus_KINDRED_helmet: JLTS_CloneHelmetP2
 	{
 		author="Wardog";
 		scopecurator=2;
@@ -274,7 +274,7 @@ class CfgWeapons
 		{
 			"56cus\data\GAR_56cus_VITO_helmet.paa"
 		};
-	};*/
+	};
 	class GAR_56cus_WARDOG_helmet: JLTS_CloneHelmetARC
 	{
 		author="Wardog";
@@ -285,7 +285,7 @@ class CfgWeapons
 			"56cus\data\GAR_56cus_WARDOG_helmet.paa"
 		};
 	};
-	/*class GAR_56cus_WINTERS_helmet: JLTS_CloneHelmetP2
+	class GAR_56cus_WINTERS_helmet: JLTS_CloneHelmetP2
 	{
 		author="Wardog";
 		scopecurator=2;
@@ -304,8 +304,8 @@ class CfgWeapons
 		{
 			"56cus\data\GAR_56cus_ZAINO_helmet.paa"
 		};
-	};*/
-	/*class GAR_56cus_APEX_armor: JLTS_CloneArmor 					//Armors
+	};
+	class GAR_56cus_APEX_armor: JLTS_CloneArmor 					//Armors
 	{
 		author="Wardog";
 		scopecurator=2;
@@ -317,7 +317,7 @@ class CfgWeapons
 			containerClass="Supply150";
 			mass=40;
 		};
-	};*/
+	};
 	class GAR_56cus_BLAST_armor: JLTS_CloneArmor
 	{
 		author="Wardog";
@@ -344,7 +344,7 @@ class CfgWeapons
 			mass=40;
 		};
 	};
-	/*class GAR_56cus_KINDRED_armor: JLTS_CloneArmor
+	class GAR_56cus_KINDRED_armor: JLTS_CloneArmor
 	{
 		author="Wardog";
 		scopecurator=2;
@@ -421,7 +421,7 @@ class CfgWeapons
 			containerClass="Supply150";
 			mass=40;
 		};
-	};*/
+	};
 	class GAR_56cus_WARDOG_armor: JLTS_CloneArmor
 	{
 		author="Wardog";
@@ -435,7 +435,7 @@ class CfgWeapons
 			mass=40;
 		};
 	};
-	/*class GAR_56cus_WINTERS_armor: JLTS_CloneArmor
+	class GAR_56cus_WINTERS_armor: JLTS_CloneArmor
 	{
 		author="Wardog";
 		scopecurator=2;
@@ -460,8 +460,8 @@ class CfgWeapons
 			containerClass="Supply150";
 			mass=40;
 		};
-	};*/
-	/*class GAR_56cus_APEX_vest: JLTS_CloneVestKama 					//Vests
+	};
+	class GAR_56cus_APEX_vest: JLTS_CloneVestKama 					//Vests
 	{
 		author="Wardog";
 		scopecurator=2;
@@ -471,7 +471,7 @@ class CfgWeapons
 		{
 			"56cus\data\GAR_56cus_APEX_vest.paa",
 		};
-	};*/
+	};
 	class GAR_56cus_WARDOG_vest: JLTS_CloneVestARC
 	{
 		author="Wardog";
@@ -492,7 +492,7 @@ class CfgVehicles
 	class JLTS_Clone_P2_Neyo_91;
 	class JLTS_Clone_P2_recon;
 	class JLTS_Clone_ARC_backpack;
-	/*class GAR_56cus_APEX: JLTS_Clone_P2_Corporal 					//Units
+	class GAR_56cus_APEX: JLTS_Clone_P2_Corporal 					//Units
 	{
 		author="Wardog";
 		scopecurator=2;
@@ -526,7 +526,7 @@ class CfgVehicles
 			"ItemWatch",
 			"GAR_56cus_NVG"
 		};
-	};*/
+	};
 	class GAR_56cus_BLAST: JLTS_Clone_P2_Corporal
 	{
 		author="Wardog";
@@ -603,7 +603,7 @@ class CfgVehicles
 			"GAR_56cus_NVG"
 		};
 	};
-	/*class GAR_56cus_KINDRED: JLTS_Clone_P2_Corporal
+	class GAR_56cus_KINDRED: JLTS_Clone_P2_Corporal
 	{
 		author="Wardog";
 		scopecurator=2;
@@ -800,7 +800,7 @@ class CfgVehicles
 			"ItemWatch",
 			"GAR_56cus_NVG"
 		};
-	};*/
+	};
 	class GAR_56cus_WARDOG: JLTS_Clone_P2_Neyo_91
 	{
 		author="Wardog";
@@ -842,7 +842,7 @@ class CfgVehicles
 			"GAR_56cus_NVG"
 		};
 	};
-	/*class GAR_56cus_WINTERS: JLTS_Clone_P2_Corporal
+	class GAR_56cus_WINTERS: JLTS_Clone_P2_Corporal
 	{
 		author="Wardog";
 		scopecurator=2;
@@ -907,7 +907,7 @@ class CfgVehicles
 			"ItemWatch",
 			"GAR_56cus_NVG"
 		};
-	};*/
+	};
 	class GAR_56cus_WardogARCPack: JLTS_Clone_ARC_backpack
 	{
 		author="Wardog";
