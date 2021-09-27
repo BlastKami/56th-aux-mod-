@@ -33,6 +33,7 @@ class CfgPatches
 			"GAR_56cus_MACE_helmet",
 			"GAR_56cus_MACE_armor",
 			"GAR_56cus_NOBLE_helmet",
+			"GAR_56cus_NOBLE2_helmet",
 			"GAR_56cus_NOBLE_armor",
 			"GAR_56cus_REAPER_helmet",
 			"GAR_56cus_REAPER_armor",
@@ -252,7 +253,17 @@ class CfgWeapons
 		displayName="[56th-Custom] Noble's Helmet";
 		hiddenSelectionsTextures[]=
 		{
-			"56cus\data\GAR_56cus_NOBLE_helmet.paa"
+			"56cus\data\GAR_56cus_NOBLE3_helmet.paa"
+		};
+	};
+	class GAR_56cus_NOBLE2_helmet: JLTS_CloneHelmetP2
+	{
+		author="Wardog";
+		scopecurator=2;
+		displayName="[56th-Custom] Noble's Infantry Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"56cus\data\GAR_56cus_NOBLE2_helmet.paa"
 		};
 	};
 	class GAR_56cus_REAPER_helmet: JLTS_CloneHelmetP2
@@ -470,6 +481,17 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"56cus\data\GAR_56cus_APEX_vest.paa",
+		};
+	};
+	class GAR_56cus_REAPER_vest: JLTS_CloneVestARC
+	{
+		author="Wardog";
+		scopecurator=2;
+		displayName="[56th-Custom] Reaper's ARC Vest";
+		model="\MRC\JLTS\characters\CloneArmor\CloneVestARC.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"56cus\data\GAR_56cus_REAPER_vest.paa",
 		};
 	};
 	class GAR_56cus_WARDOG_vest: JLTS_CloneVestARC
@@ -716,6 +738,11 @@ class CfgVehicles
 			"\56cus\data\GAR_56cus_NOBLE_upper.paa",
 			"\56cus\data\GAR_56cus_NOBLE_lower.paa"
 		};
+		hiddenSelectionsMaterials[]=
+		{
+			"MRC\JLTS\characters\CloneArmor\data\clone_armor1_clean.rvmat",
+			"MRC\JLTS\characters\CloneArmor\data\clone_armor2_clean.rvmat"
+		};
 		linkedItems[]=
 		{
 			"GAR_56cus_NOBLE_helmet",
@@ -815,11 +842,6 @@ class CfgVehicles
 			"\56cus\data\GAR_56cus_WARDOG_upper.paa",
 			"\56cus\data\GAR_56cus_WARDOG_lower.paa",
 			"\56cus\data\GAR_56cus_recon_co.paa"
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"MRC\JLTS\characters\CloneArmor\data\clone_armor1_clean.rvmat",
-			"MRC\JLTS\characters\CloneArmor\data\clone_armor2_clean.rvmat"
 		};
 		linkedItems[]=
 		{
