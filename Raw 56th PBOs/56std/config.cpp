@@ -17,7 +17,8 @@ class CfgPatches
 			"GAR_56std_cms",
 			"GAR_56std_2lt",
 			"GAR_56std_1lt",
-			"GAR_56std_cpt"
+			"GAR_56std_cpt",
+			"GAR_56std_pilot"
 		};
 		weapons[]=
 		{
@@ -28,6 +29,7 @@ class CfgPatches
 			"GAR_56std_nco_helmet",
 			"GAR_56std_snco_helmet",
 			"GAR_56std_officer_helmet",
+			"GAR_56std_pilot_helmet",
 			"GAR_56std_medic_helmet",
 			"GAR_56std_medic_ct_armor",
 			"GAR_56std_medic_cp_armor",
@@ -182,6 +184,16 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"56std\data\GAR_56std_officer_helmet.paa"
+		};
+	};
+	class GAR_56std_pilot_helmet: 3as_P2_Pilot_helmet
+	{
+		author="Apex";
+		scopecurator=2;
+		displayName="[56th] Clone Pilot Helmet";
+		hiddenSelectionsTextures[]=
+		{
+			"56std\data\GAR_56std_pilot_helmet.paa"
 		};
 	};
 	class GAR_56std_ct_armor: JLTS_CloneArmor
@@ -440,6 +452,7 @@ class CfgVehicles
 	class JLTS_Clone_P2_AR;
 	class JLTS_Clone_P2_DC15AUGL;
 	class JLTS_Clone_P2_marshalcommander;
+	class 3as_Clone_P2_Pilot;
 	class GAR_56std_ct: JLTS_Clone_P2_corporal
 	{
 		author="Apex";
@@ -900,6 +913,37 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			"GAR_56std_NVG"
+		};
+	};
+	class GAR_56std_pilot: 3as_Clone_P2_Pilot
+	{
+		author="Apex";
+		scopecurator=2;
+		editorPreview="";
+		displayName="[56th] Clone Pilot";
+		faction="GAR_56VL";
+		editorSubcategory="GAR_56std";
+		uniformclass="GAR_56std_1lt_armor";
+		hiddenSelectionsTextures[]=
+		{
+			"\56std\data\GAR_56std_1lt_upper.paa",
+			"\56std\data\GAR_56std_officer_lower.paa"
+		};
+		linkedItems[]=
+		{
+			"GAR_56std_pilot_helmet",
+			"ItemMap",
+			"JLTS_clone_comlink",
+			"ItemCompass",
+			"ItemWatch",
+		};
+		respawnLinkedItems[]=
+		{
+			"GAR_56std_pilot_helmet",
+			"ItemMap",
+			"JLTS_clone_comlink",
+			"ItemCompass",
+			"ItemWatch",
 		};
 	};
 	class GAR_56std_backpack: JLTS_Clone_backpack
