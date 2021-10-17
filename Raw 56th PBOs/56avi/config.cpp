@@ -27,8 +27,8 @@ class CfgEditorSubcategories
 };
 class CfgVehicles
 {
-	3as_Z95_base;
-	3as_Z95_Republic;
+	class 3as_Z95_base;
+	class 3as_Z95_Republic;
 	class GAR_56avi_z95_base: 3as_Z95_Republic
 	{
 		scope = 2;
