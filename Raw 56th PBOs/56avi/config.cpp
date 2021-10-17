@@ -34,7 +34,7 @@ class CfgVehicles
 		scope = 2;
 		scopecurator = 2;
 		displayName = "56th Z95 (Base)";
-		crew = "GAR_56std_1lt";
+		crew = "GAR_56std_pilot";
 		side = 1;
 		faction = "GAR_56VL";
 		editorSubcategory="GAR_56avi";
