@@ -24,6 +24,7 @@ class CfgPatches
 			"GAR_56cus_APEX_vest",
 			"GAR_56cus_BLAST_helmet",
 			"GAR_56cus_BLAST_armor",
+			"GAR_56cus_BLAST_vest",
 			"GAR_56cus_IMPULSE_helmet",
 			"GAR_56cus_IMPULSE_armor",
 			"GAR_56cus_KINDRED_helmet",
@@ -117,6 +118,7 @@ class CfgWeapons
 	class JLTS_CloneVestARCCadet;
 	class JLTS_CloneVestARC;
 	class JLTS_CloneVestKama;
+	class JLTS_CloneVestReconNCO;
 	class 3as_P1_Base;
 	class 3AS_ARF_Helmet;
 	class 3as_Engineer_Helmet;
@@ -481,6 +483,17 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"56cus\data\GAR_56cus_APEX_vest.paa",
+		};
+	};
+	class GAR_56cus_BLAST_vest: JLTS_CloneVestReconNCO
+	{
+		author="Wardog";
+		scopecurator=2;
+		displayName="[56th-Custom] Blast's Vest";
+		model="\MRC\JLTS\characters\CloneArmor\CloneVestReconNCO.p3d";
+		hiddenSelectionsTextures[]=
+		{
+			"56cus\data\GAR_56cus_BLAST_vest.paa",
 		};
 	};
 	class GAR_56cus_REAPER_vest: JLTS_CloneVestARC
